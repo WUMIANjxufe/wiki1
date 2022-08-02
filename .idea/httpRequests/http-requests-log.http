@@ -1,3 +1,35 @@
+POST http://localhost:8080/hello/post/{name}
+Content-Type: application/x-www-form-urlencoded
+
+name = TEST
+
+###
+
+POST http://localhost:8080/hello/post
+Content-Type: application/x-www-form-urlencoded
+
+name = TEST
+
+<> 2022-08-02T092857.404.json
+
+###
+
+POST http://localhost:8080/hello/post
+Content-Type: application/x-www-form-urlencoded
+
+name = TEST
+
+<> 2022-08-02T092443.200.txt
+
+###
+
+POST http://localhost:8080/hello/post
+Content-Type: application/x-www-form-urlencoded
+
+name = TEST
+
+###
+
 POST http://localhost:8080/hello/post
 Content-Type: application/x-www-form-urlencoded
 
