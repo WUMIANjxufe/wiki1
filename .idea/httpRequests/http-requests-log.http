@@ -1,109 +1,348 @@
-POST http://localhost:8080/hello/post/{name}
-Content-Type: application/x-www-form-urlencoded
+GET http://localhost:8080/hello
+Accept: application/json
 
-name = TEST
-
-###
-
-POST http://localhost:8080/hello/post
-Content-Type: application/x-www-form-urlencoded
-
-name = TEST
-
-<> 2022-08-02T092857.404.json
-
-###
-
-POST http://localhost:8080/hello/post
-Content-Type: application/x-www-form-urlencoded
-
-name = TEST
-
-<> 2022-08-02T092443.200.txt
-
-###
-
-POST http://localhost:8080/hello/post
-Content-Type: application/x-www-form-urlencoded
-
-name = TEST
-
-###
-
-POST http://localhost:8080/hello/post
-Content-Type: application/x-www-form-urlencoded
-
-name = TEST
-
-<> 2022-07-30T104602.200.txt
+<> 2022-08-02T110502.200.json
 
 ###
 
 GET http://localhost:8080/hello
 Accept: application/json
 
-<> 2022-07-30T104350.200.json
-
-###
-
-POST http://localhost:8080/hello/post
-Content-Type: application/x-www-form-urlencoded
-
-name = TEST
-
-<> 2022-07-30T104322.200.txt
-
-###
-
-POST http://localhost:8080/hello/post
-Content-Type: application/x-www-form-urlencoded
-
-name = TEST
-
-<> 2022-07-30T103351.200.txt
-
-###
-
-POST http://localhost:8080/hello/post
-Content-Type: application/x-www-form-urlencoded
-
-name = TEST
-
-<> 2022-07-30T103252.200.txt
-
-###
-
-POST http://localhost:8080/hello/post
-Content-Type: application/x-www-form-urlencoded
-
-name = TEST
-
-<> 2022-07-30T103241.200.txt
-
-###
-
-POST http://localhost:8080/hello/post
-Content-Type: application/x-www-form-urlencoded
-
-name = TEST
-
-<> 2022-07-30T103051.200.txt
-
-###
-
-POST http://localhost:8080/hello/post
-Content-Type: application/x-www-form-urlencoded
-
-name = TEST
-
-<> 2022-07-30T102959.404.json
+<> 2022-08-02T110452.200.json
 
 ###
 
 GET http://localhost:8080/hello
 Accept: application/json
 
-<> 2022-07-30T102051.200.json
+<> 2022-08-02T110424.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T110347.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T110228.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T105201.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T105153.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T105151.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T105134.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T104829.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T104809.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T104535.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T104524.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T104309.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T104301.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T104211.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T104204.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T103849.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T103836.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T103732.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T103444.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T103437.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T103406-1.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T103406.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T103405.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T103404.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T103403.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T103402.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T103354.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T103227.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T103213.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T103209.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T103146.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T103134.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T103131.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T103124.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T102911.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T102738.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T102716.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T102632.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T102515.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T102042.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T102029.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T101749.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T101642.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T101549.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T101401.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T100839.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+<> 2022-08-02T100656.200.json
 
 ###
 
