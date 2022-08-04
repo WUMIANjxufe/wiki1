@@ -1,3 +1,30 @@
+GET http://localhost:8080/test/list
+
+<> 2022-08-03T104127.200.json
+
+###
+
+GET http://localhost:8080/test/list
+
+<> 2022-08-03T103902.200.json
+
+###
+
+GET http://localhost:8080/test/list
+
+<> 2022-08-03T103641.200.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: application/json
+
+###
+
+GET http://localhost:8080/test/list
+
+###
+
 GET http://localhost:8080/hello
 Accept: application/json
 
@@ -308,41 +335,6 @@ GET http://localhost:8080/hello
 Accept: application/json
 
 <> 2022-08-02T101749.200.json
-
-###
-
-GET http://localhost:8080/hello
-Accept: application/json
-
-<> 2022-08-02T101642.200.json
-
-###
-
-GET http://localhost:8080/hello
-Accept: application/json
-
-<> 2022-08-02T101549.200.json
-
-###
-
-GET http://localhost:8080/hello
-Accept: application/json
-
-<> 2022-08-02T101401.200.json
-
-###
-
-GET http://localhost:8080/hello
-Accept: application/json
-
-<> 2022-08-02T100839.200.json
-
-###
-
-GET http://localhost:8080/hello
-Accept: application/json
-
-<> 2022-08-02T100656.200.json
 
 ###
 

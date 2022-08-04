@@ -8,3 +8,6 @@ Accept: application/json
 #name = TEST
 
 ###
+GET http://localhost:8080/test/list
+
+###
