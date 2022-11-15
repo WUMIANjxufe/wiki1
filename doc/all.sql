@@ -6,4 +6,4 @@ create table test (
   primary key (id)
 )engine = innodb default charset=utf8mb4 comment ='测试';
 
-select * from test;
+select * from pcmsystem.certificate;
