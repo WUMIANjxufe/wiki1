@@ -585,3 +585,132 @@ Caused by: java.lang.ClassNotFoundException: Cannot find class: com.jiawa.wiki.d
 2022-11-15 14:18:45.011 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
 2022-11-15 14:18:45.012 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
 2022-11-15 14:18:45.021 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2022-11-15 14:41:29.142 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2022-11-15 14:41:29.151 INFO  com.jiawa.wiki.WikiApplication                    :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_201 on LAPTOP-6TI7EMHN with PID 25948 (D:\ideacodespace\wiki\target\classes started by wumian in D:\ideacodespace\wiki)
+2022-11-15 14:41:29.152 INFO  com.jiawa.wiki.WikiApplication                    :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-11-15 14:41:29.198 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-15 14:41:29.198 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-15 14:41:29.797 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-15 14:41:29.799 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-15 14:41:29.822 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2022-11-15 14:41:30.303 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-11-15 14:41:30.310 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-15 14:41:30.311 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-11-15 14:41:30.311 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-11-15 14:41:30.313 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-11-15 14:41:30.314 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2022-11-15 14:41:30.314 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-11-15 14:41:30.329 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-11-15 14:41:30.391 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-11-15 14:41:30.391 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1192 ms
+2022-11-15 14:41:30.875 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-15 14:41:31.336 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-11-15 14:41:31.349 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-11-15 14:41:31.363 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-15 14:41:31.372 INFO  com.jiawa.wiki.WikiApplication                    :61   [32m                  [0;39m Started WikiApplication in 2.655 seconds (JVM running for 3.615)
+2022-11-15 14:41:31.377 INFO  com.jiawa.wiki.WikiApplication                    :18   [32m                  [0;39m 启动成功
+2022-11-15 14:41:31.377 INFO  com.jiawa.wiki.WikiApplication                    :19   [32m                  [0;39m 地址：	http://127.0.0.1:8080
+2022-11-15 14:41:38.240 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-15 14:41:38.240 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-11-15 14:41:38.241 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2022-11-15 14:41:38.323 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2022-11-15 14:41:38.468 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2022-11-15 14:47:44.358 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-15 14:47:44.360 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2022-11-15 14:47:44.370 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2022-11-15 14:47:44.510 INFO  com.jiawa.wiki.WikiApplication                    :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_201 on LAPTOP-6TI7EMHN with PID 25948 (D:\ideacodespace\wiki\target\classes started by wumian in D:\ideacodespace\wiki)
+2022-11-15 14:47:44.510 INFO  com.jiawa.wiki.WikiApplication                    :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-11-15 14:47:44.667 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-15 14:47:44.668 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-15 14:47:44.671 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2022-11-15 14:47:44.938 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-11-15 14:47:44.939 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-15 14:47:44.941 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-11-15 14:47:44.942 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-11-15 14:47:44.943 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-11-15 14:47:44.944 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2022-11-15 14:47:44.944 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-11-15 14:47:44.945 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-11-15 14:47:44.966 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-11-15 14:47:44.966 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 453 ms
+2022-11-15 14:47:45.100 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-15 14:47:45.185 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-11-15 14:47:45.196 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-11-15 14:47:45.200 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-15 14:47:45.205 INFO  com.jiawa.wiki.WikiApplication                    :61   [32m                  [0;39m Started WikiApplication in 0.721 seconds (JVM running for 377.447)
+2022-11-15 14:47:45.207 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-11-15 14:47:45.207 INFO  com.jiawa.wiki.WikiApplication                    :18   [32m                  [0;39m 启动成功
+2022-11-15 14:47:45.208 INFO  com.jiawa.wiki.WikiApplication                    :19   [32m                  [0;39m 地址：	http://127.0.0.1:8080
+2022-11-15 14:48:17.238 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-15 14:48:17.395 INFO  com.jiawa.wiki.WikiApplication                    :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_201 on LAPTOP-6TI7EMHN with PID 25948 (D:\ideacodespace\wiki\target\classes started by wumian in D:\ideacodespace\wiki)
+2022-11-15 14:48:17.395 INFO  com.jiawa.wiki.WikiApplication                    :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-11-15 14:48:17.511 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-15 14:48:17.511 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-15 14:48:17.513 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2022-11-15 14:48:17.585 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-11-15 14:48:17.585 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-15 14:48:17.586 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-11-15 14:48:17.586 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-11-15 14:48:17.586 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-11-15 14:48:17.586 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2022-11-15 14:48:17.586 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-11-15 14:48:17.586 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-11-15 14:48:17.598 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-11-15 14:48:17.598 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 201 ms
+2022-11-15 14:48:17.668 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-15 14:48:17.729 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-11-15 14:48:17.735 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-11-15 14:48:17.738 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-15 14:48:17.742 INFO  com.jiawa.wiki.WikiApplication                    :61   [32m                  [0;39m Started WikiApplication in 0.37 seconds (JVM running for 409.984)
+2022-11-15 14:48:17.743 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-11-15 14:48:17.744 INFO  com.jiawa.wiki.WikiApplication                    :18   [32m                  [0;39m 启动成功
+2022-11-15 14:48:17.744 INFO  com.jiawa.wiki.WikiApplication                    :19   [32m                  [0;39m 地址：	http://127.0.0.1:8080
+2022-11-15 14:48:19.385 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-15 14:48:19.501 INFO  com.jiawa.wiki.WikiApplication                    :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_201 on LAPTOP-6TI7EMHN with PID 25948 (D:\ideacodespace\wiki\target\classes started by wumian in D:\ideacodespace\wiki)
+2022-11-15 14:48:19.502 INFO  com.jiawa.wiki.WikiApplication                    :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-11-15 14:48:19.583 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-15 14:48:19.583 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-15 14:48:19.585 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2022-11-15 14:48:19.625 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-11-15 14:48:19.625 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-15 14:48:19.626 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-11-15 14:48:19.626 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-11-15 14:48:19.626 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-11-15 14:48:19.626 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2022-11-15 14:48:19.626 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-11-15 14:48:19.626 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-11-15 14:48:19.639 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-11-15 14:48:19.639 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 136 ms
+2022-11-15 14:48:19.702 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-15 14:48:19.741 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-11-15 14:48:19.746 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-11-15 14:48:19.749 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-15 14:48:19.752 INFO  com.jiawa.wiki.WikiApplication                    :61   [32m                  [0;39m Started WikiApplication in 0.272 seconds (JVM running for 411.994)
+2022-11-15 14:48:19.753 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-11-15 14:48:19.754 INFO  com.jiawa.wiki.WikiApplication                    :18   [32m                  [0;39m 启动成功
+2022-11-15 14:48:19.754 INFO  com.jiawa.wiki.WikiApplication                    :19   [32m                  [0;39m 地址：	http://127.0.0.1:8080
+2022-11-15 14:51:32.537 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-15 14:51:32.628 INFO  com.jiawa.wiki.WikiApplication                    :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_201 on LAPTOP-6TI7EMHN with PID 25948 (D:\ideacodespace\wiki\target\classes started by wumian in D:\ideacodespace\wiki)
+2022-11-15 14:51:32.628 INFO  com.jiawa.wiki.WikiApplication                    :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-11-15 14:51:32.726 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-15 14:51:32.726 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-15 14:51:32.728 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2022-11-15 14:51:32.782 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-11-15 14:51:32.782 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-15 14:51:32.783 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-11-15 14:51:32.783 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-11-15 14:51:32.783 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-11-15 14:51:32.783 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2022-11-15 14:51:32.783 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-11-15 14:51:32.783 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-11-15 14:51:32.797 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-11-15 14:51:32.798 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 168 ms
+2022-11-15 14:51:32.857 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-15 14:51:32.894 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-11-15 14:51:32.898 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-11-15 14:51:32.901 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-15 14:51:32.903 INFO  com.jiawa.wiki.WikiApplication                    :61   [32m                  [0;39m Started WikiApplication in 0.294 seconds (JVM running for 605.146)
+2022-11-15 14:51:32.904 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-11-15 14:51:32.905 INFO  com.jiawa.wiki.WikiApplication                    :18   [32m                  [0;39m 启动成功
+2022-11-15 14:51:32.905 INFO  com.jiawa.wiki.WikiApplication                    :19   [32m                  [0;39m 地址：	http://127.0.0.1:8080
+2022-11-15 14:57:54.513 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'

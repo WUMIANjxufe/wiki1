@@ -10,6 +10,7 @@ public class CopyUtil {
 
     /**
      * 单体复制
+     * <T>表示是泛型方法，T表示返回值，Class<T>作用是指明泛型T的具体类型
      */
     public static <T> T copy(Object source, Class<T> clazz) {
         if (source == null) {
@@ -17,6 +18,7 @@ public class CopyUtil {
         }
         T obj = null;
         try {
+            //    x.getClass.newInstance()，创建了一个同x一样类型的新实例
             obj = clazz.newInstance();
         } catch (Exception e) {
             e.printStackTrace();
